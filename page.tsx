@@ -1,7 +1,7 @@
 "use client"
 import {Video, buildSrc} from "@imagekit/next"
 // store url in .env file
-const url = "https://ik.imagekit.io/bdq9llspq/"
+const url = "https://ik.imagekit.io/{your_code}/"
 const videoSrc = "sample-video.mp4"
 const thumbs = [1, 2, 3, 4, 5, 6].map(i =>
     buildSrc({
